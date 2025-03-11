@@ -23,7 +23,7 @@ body {
     grid-column: 3 / 5;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    background: #49e4ff;
+    background: #064179;
 }
 
 .menu ul {
@@ -94,7 +94,7 @@ body {
 }
 
 .animais-lista::-webkit-scrollbar-thumb {
-    background: #49e4ff;
+    background: #064179;
     border-left: 4px solid #559ab9;
     border-right: 4px solid #559ab9;
 } 
@@ -125,7 +125,7 @@ body {
     width: 20px;
     height: 10px;
     margin-right: 10px;
-    background: #49e4ff;
+    background: #064179;
 }
 
 .faq-lista dd {
