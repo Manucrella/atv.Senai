@@ -13,36 +13,36 @@ ul {
 }
 
 body {
-    background: #075072;
+    background: #559ab9;
     color: #000000;
     display: grid;
     grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
 }
 
 .menu {
-    grid-column: 1/ 5;
-    margin-top: 0rem;
+    grid-column: 3 / 5;
+    margin-top: 2rem;
     margin-bottom: 2rem;
-    background: #fdf8e188;
+    background: #064179;
 }
 
 .menu ul {
     display: flex;
     flex-wrap: wrap;
-    padding: 30px;
+    padding: 10px;
     /* justify-content: center; */
 }
 
 .menu li a {
     display: block;
-    padding: 20px;
-    margin-right: 40px;
-    color: #0d2552;
+    padding: 10px;
+    margin-right: 10px;
+    color: #000000;
     text-decoration: none;
-    font-family: georgia;
+    font-family: monospace;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 0.875rem;
     letter-spacing: .1rem;
 }
 
@@ -64,7 +64,7 @@ body {
     grid-column: 1 / 4;
 }
 
-.Visitas h2::before {
+.animais h2::before {
     content: '';
     display: inline-block;
     width: 40px;
@@ -73,45 +73,45 @@ body {
     background: #49e4ff;
 }
 
-.Visitas p {
+.animais p {
     font-family: Helvetica, arial;
     line-height: 1.2;
     margin-bottom: 1rem;
 }
 
-.Visitas-lista {
+.animais-lista {
     height: 370px;
     overflow-y: scroll;
     grid-column: 2;
 }
 
-.Visitas-lista li {
+.animais-lista li {
     cursor: pointer;
 }
 
-.Visitas-lista::-webkit-scrollbar {
+.animais-lista::-webkit-scrollbar {
     width: 18px;
 }
 
-.Visitas-lista::-webkit-scrollbar-thumb {
+.animais-lista::-webkit-scrollbar-thumb {
     background: #064179;
     border-left: 4px solid #559ab9;
     border-right: 4px solid #559ab9;
 } 
 
-.Visitas-lista::-webkit-scrollbar-track {
+.animais-lista::-webkit-scrollbar-track {
     background: #559ab9;
 }
 
-.Visitas-descriscao {
+.animais-descriscao {
     grid-column: 3;
 }
 
-.Visitas-descriscao section {
+.animais-descriscao section {
     margin-bottom: 3rem;
 }
 
-.Visitas-lista dt {
+.faq-lista dt {
     font-family: monospace;
     font-weight: bold;
     margin-top: 2rem;
@@ -119,7 +119,7 @@ body {
     color: rgb(0, 65, 187)
 }
 
-.Visitas-lista dt::before {
+.faq-lista dt::before {
     content: '';
     display: inline-block;
     width: 20px;
@@ -128,7 +128,7 @@ body {
     background: #064179;
 }
 
-.Visitas-lista dd {
+.faq-lista dd {
     font-family: Helvetica, arial;
     margin-bottom: .5rem;
     margin-left: 30px;
@@ -188,7 +188,7 @@ body {
         grid-column: 1;
     }
 
-    .sobreMim-lista, .dados, .mapa {
+    .faq-lista, .dados, .mapa {
         grid-column: 1/3;
     }
 
