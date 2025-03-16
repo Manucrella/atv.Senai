@@ -64,7 +64,7 @@ body {
     grid-column: 1 / 4;
 }
 
-.animais h2::before {
+.projetos h2::before {
     content: '';
     display: inline-block;
     width: 40px;
@@ -73,45 +73,45 @@ body {
     background: #49e4ff;
 }
 
-.animais p {
+.projetos p {
     font-family: Helvetica, arial;
     line-height: 1.2;
     margin-bottom: 1rem;
 }
 
-.animais-lista {
+.projetos-lista {
     height: 370px;
     overflow-y: scroll;
     grid-column: 2;
 }
 
-.animais-lista li {
+.projetos-lista li {
     cursor: pointer;
 }
 
-.animais-lista::-webkit-scrollbar {
+.projetos-lista::-webkit-scrollbar {
     width: 18px;
 }
 
-.animais-lista::-webkit-scrollbar-thumb {
+.projetos-lista::-webkit-scrollbar-thumb {
     background: #064179;
     border-left: 4px solid #559ab9;
     border-right: 4px solid #559ab9;
 } 
 
-.animais-lista::-webkit-scrollbar-track {
+.projetos-lista::-webkit-scrollbar-track {
     background: #559ab9;
 }
 
-.animais-descriscao {
+.projetos-descriscao {
     grid-column: 3;
 }
 
-.animais-descriscao section {
+.projetos-descriscao section {
     margin-bottom: 3rem;
 }
 
-.faq-lista dt {
+.home-lista dt {
     font-family: monospace;
     font-weight: bold;
     margin-top: 2rem;
@@ -119,7 +119,7 @@ body {
     color: rgb(0, 65, 187)
 }
 
-.faq-lista dt::before {
+.home-lista dt::before {
     content: '';
     display: inline-block;
     width: 20px;
@@ -128,7 +128,7 @@ body {
     background: #064179;
 }
 
-.faq-lista dd {
+.home-lista dd {
     font-family: Helvetica, arial;
     margin-bottom: .5rem;
     margin-left: 30px;
@@ -184,11 +184,11 @@ body {
         grid-gap: 10px;
     }
 
-    .animais-lista {
+    .projetos-lista {
         grid-column: 1;
     }
 
-    .faq-lista, .dados, .mapa {
+    .home-lista, .dados, .mapa {
         grid-column: 1/3;
     }
 
