@@ -231,7 +231,7 @@ body {
     margin: 0;
 }
 
-.menu {
+.menu2 {
     height: 100%;
     width: 250px;
     position: fixed;
@@ -244,7 +244,7 @@ body {
     padding-top: 60px;
 }
 
-.menu a {
+.menu2 a {
     padding: 10px 15px;
     text-decoration: none;
     font-size: 25px;
@@ -253,7 +253,7 @@ body {
     transition: 0.3s;
 }
 
-.menu a:hover {
+.menu2 a:hover {
     color: #f1f1f1;
 }
 
