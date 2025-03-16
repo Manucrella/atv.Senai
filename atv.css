@@ -19,31 +19,44 @@ body {
     grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
 }
 
+body {
+    display: flex; /* Usar flexbox para alinhar o menu e o conteúdo */
+}
+
 .menu {
-    grid-column: 1 / 5;
-    margin-top: 0rem;
-    margin-bottom: 2rem;
-    background: #064179;
+    width: 250px; /* Largura do menu */
+    height: 100vh; /* Altura total da tela */
+    background: #064179; /* Cor de fundo do menu */
+    position: fixed; /* Fixa o menu na tela */
+    top: 0; /* Alinha o menu ao topo */
+    left: 0; /* Alinha o menu à esquerda */
+    padding-top: 20px; /* Espaço no topo */
 }
 
 .menu ul {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    /* justify-content: center; */
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão */
+}
+
+.menu li {
+    margin-bottom: 10px; /* Espaçamento entre os itens do menu */
 }
 
 .menu li a {
-    display: block;
-    padding: 10px;
-    margin-right: 10px;
-    color: #000000;
-    text-decoration: none;
-    font-family: monospace;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    letter-spacing: 0.5rem;
+    display: block; /* Faz os links ocuparem toda a largura */
+    padding: 10px; /* Espaçamento interno dos links */
+    color: #ffffff; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    font-family: monospace; /* Fonte monospace */
+    font-weight: bold; /* Negrito */
+    text-transform: uppercase; /* Letras maiúsculas */
+    font-size: 1.2rem; /* Tamanho da fonte */
+    letter-spacing: 0.5rem; /* Espaçamento entre letras */
+    transition: background 0.3s; /* Transição suave para o fundo */
+}
+
+.menu li a:hover {
+    background: #0a4e8d; /* Cor de fundo ao passar o mouse */
 }
 
 .grid-section {
