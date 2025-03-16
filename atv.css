@@ -5,7 +5,7 @@ body, h1, ul, li, p, dd, dt, dl {
 
 img {
     display: block;
-    max-width: 200%;
+    max-width: 100%;
 }
 
 ul {
@@ -157,14 +157,14 @@ body {
     background: #49e4ff;
 }
 
-.copy {
+.sobre {
     grid-column: 3/5;
     margin-bottom: 2rem;
     background: #49e4ff;
 
 }
 
-.copy p {
+.sobre p {
     padding: 20px;
     font-family: monospace;
     font-weight: bold;
@@ -200,7 +200,7 @@ body {
         margin-top: 0px;
     }
 
-    .copy {
+    .sobre {
         margin-bottom: 0px;
     }
     
