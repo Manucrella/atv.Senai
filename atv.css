@@ -111,7 +111,7 @@ body {
     margin-bottom: 3rem;
 }
 
-.home-lista dt {
+.sobre-lista dt {
     font-family: monospace;
     font-weight: bold;
     margin-top: 2rem;
@@ -119,7 +119,7 @@ body {
     color: rgb(0, 65, 187)
 }
 
-.home-lista dt::before {
+.sobre-lista dt::before {
     content: '';
     display: inline-block;
     width: 20px;
@@ -128,7 +128,7 @@ body {
     background: #064179;
 }
 
-.home-lista dd {
+.sobre-lista dd {
     font-family: Helvetica, arial;
     margin-bottom: .5rem;
     margin-left: 30px;
