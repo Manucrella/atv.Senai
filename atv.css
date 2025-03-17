@@ -60,6 +60,12 @@ body {
     grid-template-columns: 200px 700px 1fr;
 }
 
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #000000; /* bordinha fina*/
+    border-radius: 20px;
+  }
 
 .titulo {
     font-family: Georgia;
@@ -110,13 +116,13 @@ body {
 }
 
 .projetos-descriscao {
-    grid-column: 2 / 4;
+    grid-column: 4 / 4;
 }
 
 
 .projetos-descriscao section {
     margin-bottom: 1rem;
-    grid-column: 1 / 4;
+    grid-column: 4 / 4;
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
@@ -236,4 +242,3 @@ body {
         transform: translate3d(0, 0, 0);
     }
 }
-
