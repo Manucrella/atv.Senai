@@ -16,7 +16,7 @@ ul {
 
 body {
     background-image: url("background/cffa34b110d11edf078de43b5ecf2822.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
