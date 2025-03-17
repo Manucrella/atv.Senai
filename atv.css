@@ -34,7 +34,7 @@ body {
     grid-column: 1/ 5;
     margin-top: 0rem;
     margin-bottom: 0rem;
-    background: #66abecb2;
+    background:rgba(179, 206, 255, 0.61);
     margin: 0px;
     padding: 0px;
 }
