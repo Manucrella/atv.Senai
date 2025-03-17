@@ -96,7 +96,7 @@ section {
 }
 
 .projetos p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: georgia;
     line-height: 1.4;
     margin-bottom: 2rem;
 }
@@ -158,7 +158,7 @@ section {
 }
 
 .sobre-lista dd {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: georgia;
     margin-bottom: .5rem;
     margin-left: 30px;
 }
@@ -171,7 +171,7 @@ section {
 
 .dados li {
     margin-bottom: 1rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: georgia;
 
 }
 
@@ -193,7 +193,7 @@ section {
 
 .sobre p {
     padding: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: georgia;
     font-weight: bold;
 }
 
